@@ -30,7 +30,7 @@ class Users extends Component {
       // console.log('USER ', user)
       return (
         <li className="list-group-item" key={user.id}>
-          <Link to={`users/${user.id}`}>{user.name}</Link>
+          <Link to={`api/${user.id}`}>{user.name}</Link>
         </li>
       )
     });

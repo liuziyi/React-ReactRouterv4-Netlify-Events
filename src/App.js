@@ -44,8 +44,8 @@ class App extends Component {
             <Route path="/events/tdf" component={TourDeFrance}/>
             <Route path="/events/nfl" component={NFLPlayoffs}/>
             <Route path="/events/mlb" component={MLBPlayoffs}/>
-            <Route path="/users" component={Users} exact/>
-            <Route path="/users/:id" component={UserDetails} />
+            <Route path="/api" component={Users} exact/>
+            <Route path="/api/:id" component={UserDetails} />
             <Route path="/categories" component={Categories} exact/>
             <Route path="/countries" component={Countries}/>
             <Route component={Error}/>

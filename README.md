@@ -28,4 +28,4 @@
 ```
 
 ## Netlify
-- https://zevents.netlify.com/
+- https://rocky-events.netlify.com/
